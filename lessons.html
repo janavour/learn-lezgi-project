@@ -1,0 +1,17 @@
+---
+layout: default
+title: Blog
+---
+<h1>Уроки</h1>
+
+<ul>
+    {% for lesson in site.lessons %}
+    <ol>
+        <li>
+            <a href="{{ site.baseurl}}{{ lesson.url }}">
+                {{ lesson.title }}
+            </a>
+        </li>
+    </ol>
+    {% endfor %}
+</ul>
