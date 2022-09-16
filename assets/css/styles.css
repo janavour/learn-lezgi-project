@@ -43,3 +43,17 @@ a {
     text-align: justify;
     font-size: 19px;
 }
+
+@media only screen and (max-width: 800px) {
+    #logo {
+        display: none;
+    }
+
+    header {
+        justify-content: center;
+    }
+
+    #content {
+        width: 90%;
+    }
+}
