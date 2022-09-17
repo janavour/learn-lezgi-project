@@ -1,3 +1,6 @@
 domain: janavour.github.io
 url: https://janavour.github.io
 baseurl: /learn-lezgi-project/
+collections:
+  lessons:
+    output: true
