@@ -15,11 +15,16 @@
       <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
       {% endfor %}
     </nav>
+    <button id="color-scheme-btn">
+      <img src="{{ 'assets/img/sun.png' }}">
+    </button>
   </header>
 
   <main id="content">
     {{ content }}
   </main>
+
+  <script src="{{ 'assets/js/main.js' }}"></script>
 
 </body>
 </html>
